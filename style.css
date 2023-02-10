@@ -8,6 +8,14 @@ body {
   font-family: "rubik", sans-serif;
 }
 
+h1 {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -16,6 +24,7 @@ body {
 nav {
   font-size: 20px;
   font-weight: 700;
+  color: #fff;
   /* background-color: green; */
 
   display: flex;
@@ -28,7 +37,11 @@ header {
 
   position: relative;
 
-  background-image: url(hero.jpg);
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url(hero.jpg);
   background-size: cover;
 
   /* display: flex;
