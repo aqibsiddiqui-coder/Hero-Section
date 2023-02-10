@@ -10,10 +10,14 @@ body {
 
 h1 {
   color: #fff;
+  font-size: 52px;
+  /* font-weight: 700; */
+  line-height: 1.05;
 }
 
 p {
   color: #fff;
+  line-height: 1.6;
 }
 
 .container {
@@ -25,6 +29,7 @@ nav {
   font-size: 20px;
   font-weight: 700;
   color: #fff;
+  padding-top: 32px;
   /* background-color: green; */
 
   display: flex;
@@ -34,6 +39,7 @@ nav {
 header {
   /* background-color: orangered; */
   height: 100vh;
+  margin-bottom: 92px;
 
   position: relative;
 
@@ -83,4 +89,14 @@ p {
   border-radius: 8px;
   color: #fff;
   margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 42px;
+  color: #444;
+  margin-bottom: 32px;
+}
+
+section p {
+  color: #444;
 }
