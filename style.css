@@ -6,7 +6,6 @@
 
 body {
   font-family: "rubik", sans-serif;
-  display: block;
 }
 
 .container {
@@ -14,27 +13,47 @@ body {
   margin: 0 auto;
 }
 
-.header-container {
-  width: 1200px;
-}
-
 nav {
   font-size: 20px;
   font-weight: 700;
+  /* background-color: green; */
 
   display: flex;
   justify-content: space-between;
 }
 
 header {
-  background-color: orangered;
+  /* background-color: orangered; */
   height: 100vh;
+
+  position: relative;
+
+  background-image: url(hero.jpg);
+  background-size: cover;
+
+  /* display: flex;
+  align-items: center; */
+}
+
+.header-container {
+  width: 1200px;
+  /* background-color: aqua; */
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.header-container-inner {
+  width: 50%;
+  /* background-color: #ff00ff; */
 }
 
 h1 {
   font-size: 48px;
   margin-bottom: 48px;
-  margin-top: 94px;
 }
 
 p {
