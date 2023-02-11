@@ -76,7 +76,8 @@ h1 {
 }
 
 p {
-  font-size: 22px;
+  font-size: 20px;
+  line-height: 1.6;
   margin-bottom: 48px;
 }
 
