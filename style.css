@@ -40,7 +40,7 @@ nav {
 header {
   /* background-color: orangered; */
   height: 100vh;
-  margin-bottom: 92px;
+  /* margin-bottom: 92px; */
 
   position: relative;
 
@@ -78,14 +78,16 @@ p {
 }
 
 .btn {
-  font-size: 22px;
-  font-weight: 700px;
-  border: none;
+  font-size: 20px;
+  font-weight: 600px;
+  /* border: none; */
   padding: 16px 32px;
   background-color: #e67e22;
-  border-radius: 8px;
+  border-radius: 9px;
   color: #fff;
-  margin-bottom: 30px;
+  text-decoration: none;
+  cursor: pointer;
+  /* margin-bottom: 30px; */
 }
 
 h2 {
